@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --background: #2b2b2b;
+    --background---secondary: #3b3b3b;
+    --caption-label-text: #858584;
+    --text: #fff;
+    --call-to-action: #a259ff;
+    --blue-accent: #377df7;
+    --red-accent: #ff7262;
+    --font-family: "Space Mono", sans-serif;
+    --second-family: "Work Sans", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1500px;
+
+    background: var(--background);
+}
+
+.container {
+    max-width: 1300px;
+
+    background: var(--background);
+    margin: 0 auto;
+
+
+}
+
+nav {
+    margin-top: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first {
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--text);
+    text-decoration: none;
+}
+
+ul button {
+    border-radius: 20px;
+    padding: 0 30px;
+    width: 152px;
+    height: 60px;
+    background: var(--call-to-action);
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--text);
+
+}
+.btn{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.p1 {
+    width: 1250px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    margin-top: -60px;
+    
+}
+.imt{
+    margin-top: 120px;
+}
+.hero {
+    margin-top: 117.6px;
+    height: 544px;
+    width: 510px;
+}
+
+.hero h1 {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.hero p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: var(--text);
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.hero button {
+    border-radius: 20px;
+    padding: 0 50px;
+    width: 224px;
+    height: 60px;
+    background: var(--call-to-action);
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--text);
+}
+
+.f1 {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.h5 h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.p2 {
+    margin-top: 160px;
+}
+
+.p2 h1 {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.p2 p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: var(--text);
+    margin-bottom: 60px;
+}
+
+.ht5 {
+    display: flex;
+    gap: 130px;
+}
+
+.ht5 h6 {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: var(--text);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.ht5 p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--text);
+
+}
+
+.p3 {
+    margin-top: 160px;
+}
+
+.p3 h3 {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+.ght{
+    display: flex;
+    justify-content: space-between;
+}
+.p3 p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: var(--text);
+    height: 60px;display: flex;
+    align-items: center;
+}
+.p3 button{border: 2px solid var(--call-to-action);
+border-radius: 20px;
+padding: 0 50px;
+width: 247px;
+height: 60px;
+background: var(--background);
+font-family: var(--second-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: var(--text);
+margin-bottom: 60px;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    grid-template-rows: repeat(3, 238px);
+   
+    width: 1000px;
+    height: 1000px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    gap: 30px;
+}
+.grid{
+   border-radius: 20px;
+padding: 20px;
+width: 240px;
+height: 238px;
+background: var(--background---secondary);
+    
+    height: 240px;
+    width: 200px;
+    gap: 30px;
+}
+.grid h5{
+    font-family: var(--second-family);
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+text-align: center;
+text-transform: capitalize;
+color: var(--text);
+}
+.grid p{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 13px;
+line-height: 140%;
+text-align: right;
+
+}
+.grid h6{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 13px;
+line-height: 140%;
+color: var(--text);
+}
+.yt{
+    display: flex ;
+    align-items: center;
+   gap:5px;
+
+    
+}
